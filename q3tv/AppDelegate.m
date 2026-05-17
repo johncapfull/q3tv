@@ -8,11 +8,7 @@
 #import "AppDelegate.h"
 #import <GameController/GameController.h>
 
-#if TARGET_OS_TV
-#import "Quake3_tvOS-Swift.h"
-#else
-#import "Quake3_iOS-Swift.h"
-#endif
+#import "bridging.h"
 
 @implementation SDLUIKitDelegate (customDelegate)
 
@@ -94,14 +90,12 @@
     }
 }
 
-- (void)controllerConnected:(NSNotification *)notification
-{
+- (void)controllerConnected:(NSNotification *)notification {
     GCController *controller = notification.object;
     NSLog(@"CONTROLLER Connected: %@", controller.vendorName);
 }
 
-- (void)controllerDisconnected:(NSNotification *)notification
-{
+- (void)controllerDisconnected:(NSNotification *)notification {
     GCController *controller = notification.object;
     NSLog(@"CONTROLLER Disconnected: %@", controller.vendorName);
 }

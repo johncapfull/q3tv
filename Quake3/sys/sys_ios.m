@@ -11,7 +11,7 @@
 #include "qcommon.h"
 
 #if TARGET_OS_TV
-#import "Quake3_tvOS-Swift.h"
+#import "bridging.h"
 #else
 #import "Quake3_iOS-Swift.h"
 #endif
@@ -23,7 +23,7 @@ qboolean Sys_LowPhysicalMemory(void) {
     return qtrue;
 }
 
-void Sys_UnloadGame() {
+void Sys_UnloadGame(void) {
 }
 
 void Sys_Error(const char *error, ...) {
