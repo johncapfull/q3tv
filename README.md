@@ -1,6 +1,17 @@
 <img align="left" width="100" height="100" src="https://raw.githubusercontent.com/tomkidd/Quake3-iOS/master/icon_quake3.png">  
 
-#  Quake III: Arena for iOS and tvOS for Apple TV
+# Quake III: Arena for Apple TV
+
+## Jay's
+
+This is a fork of Quake III: Arena port for iOS that has been fixed and primary targeted for Apple TV.
+
+Fixes include:
+- Gamepad support for tvOS
+- SDL2 library update
+- Pre-baked sensivity settings for gamepad
+
+## Original readme
 
 &nbsp;
 
