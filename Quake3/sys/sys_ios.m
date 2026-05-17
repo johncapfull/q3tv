@@ -28,15 +28,16 @@ void Sys_UnloadGame(void) {
 
 void Sys_Error(const char *error, ...) {
     extern void Sys_Exit(int ex);
-    
-    NSString *errorString;
-    va_list ap;
-    
-    va_start(ap, error);
-    errorString = [[NSString alloc] initWithFormat:[NSString stringWithCString:error encoding:NSUTF8StringEncoding]
-                                          arguments:ap];
-    va_end(ap);
 
+    NSString *formatString = [NSString stringWithCString:error encoding:NSUTF8StringEncoding];
+
+    va_list ap;
+    va_start(ap, error);
+    NSString * errorString = [[NSString alloc] initWithFormat:formatString arguments:ap];
+    va_end(ap);
+    
+    NSLog(@"ERROR: %@", errorString);
+    
     Sys_UnloadGame();
     
     exit(1);

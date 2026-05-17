@@ -4,4 +4,7 @@
    <FileRef
       location = "container:q3tv.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:sdl/Xcode/SDL/SDL.xcodeproj">
+   </FileRef>
 </Workspace>
