@@ -60,12 +60,12 @@ class ServerBrowserViewController: UIViewController {
         coordinator?.getServersList(host: host, port: port)
 
         #if os(iOS)
-        filterButton.titleLabel?.font = UIFont.fontAwesome(ofSize: 18, style: .solid)
+        filterButton.titleLabel?.font = UIFont.systemFont(ofSize: 18)
         #endif
         #if os(tvOS)
-        filterButton.titleLabel?.font = UIFont.fontAwesome(ofSize: 36, style: .solid)
+        filterButton.titleLabel?.font = UIFont.systemFont(ofSize: 36)
         #endif
-        filterButton.setTitle(String.fontAwesomeIcon(name: .filter), for: .normal)
+        filterButton.setTitle("📊", for: .normal)  // filter lol
 
         // Do any additional setup after loading the view.
     }

@@ -199,12 +199,6 @@
 		A15AA927211B43A400DE867F /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA924211B43A400DE867F /* OptionsViewController.swift */; };
 		A15AA92A211B470200DE867F /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA929211B470200DE867F /* MainMenuViewController.swift */; };
 		A15AA92C211B470200DE867F /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA929211B470200DE867F /* MainMenuViewController.swift */; };
-		A16B764C24ACC4C000D96F09 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16B764024ACC4BF00D96F09 /* Font Awesome 5 Free-Regular-400.otf */; };
-		A16B764D24ACC4C000D96F09 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16B764024ACC4BF00D96F09 /* Font Awesome 5 Free-Regular-400.otf */; };
-		A16B764E24ACC4C000D96F09 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16B764A24ACC4BF00D96F09 /* Font Awesome 5 Free-Solid-900.otf */; };
-		A16B764F24ACC4C000D96F09 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16B764A24ACC4BF00D96F09 /* Font Awesome 5 Free-Solid-900.otf */; };
-		A16B765024ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16B764B24ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf */; };
-		A16B765124ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16B764B24ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf */; };
 		A176FBD9237A2610009DC413 /* sys_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FBD8237A2610009DC413 /* sys_ios.m */; };
 		A176FBDA237A2610009DC413 /* sys_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FBD8237A2610009DC413 /* sys_ios.m */; };
 		A179BFE9210142FA00D3C611 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A179BFE8210142FA00D3C611 /* GameViewController.swift */; };
@@ -441,10 +435,8 @@
 		A1CA512125A4258B00D72650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E8B31D23712A37005C6CA8 /* AppDelegate.m */; };
 		A1CA512225A4258B00D72650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E8B31D23712A37005C6CA8 /* AppDelegate.m */; };
 		A1DBB60B24A15FA90021BA6F /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = A1DBB60A24A15FA90021BA6F /* CocoaAsyncSocket */; };
-		A1DBB60E24A160080021BA6F /* FontAwesome in Frameworks */ = {isa = PBXBuildFile; productRef = A1DBB60D24A160080021BA6F /* FontAwesome */; };
 		A1DBB61124A160450021BA6F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A1DBB61024A160450021BA6F /* ZIPFoundation */; };
 		A1DBB61324A161600021BA6F /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = A1DBB61224A161600021BA6F /* CocoaAsyncSocket */; };
-		A1DBB61524A161600021BA6F /* FontAwesome in Frameworks */ = {isa = PBXBuildFile; productRef = A1DBB61424A161600021BA6F /* FontAwesome */; };
 		A1DBB61724A161A40021BA6F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A1DBB61624A161A40021BA6F /* ZIPFoundation */; };
 		A1DBB61824A164F90021BA6F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A196B6FE2117EF0F0031CEB8 /* AudioToolbox.framework */; };
 		A1DBB61924A164F90021BA6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A196B6FC2117EEFD0031CEB8 /* AVFoundation.framework */; };
@@ -505,9 +497,6 @@
 		A15AA921211A68E900DE867F /* ServerListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServerListViewCell.xib; sourceTree = "<group>"; };
 		A15AA924211B43A400DE867F /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		A15AA929211B470200DE867F /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		A16B764024ACC4BF00D96F09 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
-		A16B764A24ACC4BF00D96F09 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
-		A16B764B24ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		A176FBD8237A2610009DC413 /* sys_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sys_ios.m; sourceTree = "<group>"; };
 		A179BFE3210142FA00D3C611 /* q3tv-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "q3tv-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A179BFE8210142FA00D3C611 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -833,7 +822,6 @@
 				696F92A12FBA26F200ACFA7E /* AudioToolbox.framework in Frameworks */,
 				A1DBB61324A161600021BA6F /* CocoaAsyncSocket in Frameworks */,
 				696F92A52FBA271400ACFA7E /* CoreHaptics.framework in Frameworks */,
-				A1DBB61524A161600021BA6F /* FontAwesome in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,7 +831,6 @@
 			files = (
 				A1DBB64D24A183770021BA6F /* CoreBluetooth.framework in Frameworks */,
 				A1DBB61924A164F90021BA6F /* AVFoundation.framework in Frameworks */,
-				A1DBB60E24A160080021BA6F /* FontAwesome in Frameworks */,
 				A1DBB60B24A15FA90021BA6F /* CocoaAsyncSocket in Frameworks */,
 				A1DBB61824A164F90021BA6F /* AudioToolbox.framework in Frameworks */,
 				694CBBDD2FBA238D0020E35A /* libSDL2.a in Frameworks */,
@@ -863,9 +850,6 @@
 			isa = PBXGroup;
 			children = (
 				A151039E210D50D40087EA86 /* dpquake.ttf */,
-				A16B764B24ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf */,
-				A16B764024ACC4BF00D96F09 /* Font Awesome 5 Free-Regular-400.otf */,
-				A16B764A24ACC4BF00D96F09 /* Font Awesome 5 Free-Solid-900.otf */,
 			);
 			path = res;
 			sourceTree = "<group>";
@@ -897,7 +881,7 @@
 			isa = PBXGroup;
 			children = (
 				A1902E9A21075F1C008823BB /* baseq3 */,
-				A179BFFA210146BF00D3C611 /* Quake3 */,
+				A179BFFA210146BF00D3C611 /* q3 */,
 				A179BFE5210142FA00D3C611 /* q3tv */,
 				6921E3AC2FBA1F21006D2EBF /* res-tvos */,
 				6921E3AB2FBA1F19006D2EBF /* res-ios */,
@@ -947,7 +931,7 @@
 			path = q3tv;
 			sourceTree = "<group>";
 		};
-		A179BFFA210146BF00D3C611 /* Quake3 */ = {
+		A179BFFA210146BF00D3C611 /* q3 */ = {
 			isa = PBXGroup;
 			children = (
 				A179C1B22101472C00D3C611 /* AL */,
@@ -962,7 +946,7 @@
 				A179C0E92101471000D3C611 /* server */,
 				A179C1BA2101472C00D3C611 /* sys */,
 			);
-			path = Quake3;
+			path = q3;
 			sourceTree = "<group>";
 		};
 		A179C01C2101470F00D3C611 /* botlib */ = {
@@ -1442,7 +1426,6 @@
 			name = "q3tv-tvos";
 			packageProductDependencies = (
 				A1DBB61224A161600021BA6F /* CocoaAsyncSocket */,
-				A1DBB61424A161600021BA6F /* FontAwesome */,
 				A1DBB61624A161A40021BA6F /* ZIPFoundation */,
 			);
 			productName = "Quake3-tvOS";
@@ -1465,7 +1448,6 @@
 			name = "q3tv-ios";
 			packageProductDependencies = (
 				A1DBB60A24A15FA90021BA6F /* CocoaAsyncSocket */,
-				A1DBB60D24A160080021BA6F /* FontAwesome */,
 				A1DBB61024A160450021BA6F /* ZIPFoundation */,
 			);
 			productName = "Quake3-iOS11";
@@ -1502,7 +1484,6 @@
 			mainGroup = A179BFDA210142F900D3C611;
 			packageReferences = (
 				A1DBB60924A15FA90021BA6F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
-				A1DBB60C24A160080021BA6F /* XCRemoteSwiftPackageReference "FontAwesome" */,
 				A1DBB60F24A160450021BA6F /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 			);
 			productRefGroup = A179BFE4210142FA00D3C611 /* Products */;
@@ -1521,13 +1502,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1565FD42109F30E00FA9BC9 /* Assets.xcassets in Resources */,
-				A16B764D24ACC4C000D96F09 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				A1565FD52109F30E00FA9BC9 /* Main.storyboard in Resources */,
-				A16B765124ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
 				A15AA922211A68E900DE867F /* ServerListViewCell.xib in Resources */,
 				A15103A1210D50DC0087EA86 /* dpquake.ttf in Resources */,
 				A1565FD62109F30E00FA9BC9 /* baseq3 in Resources */,
-				A16B764F24ACC4C000D96F09 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1537,13 +1515,10 @@
 			files = (
 				A196B6E521167B890031CEB8 /* ServerListViewCell.xib in Resources */,
 				A179BFF1210142FB00D3C611 /* LaunchScreen.storyboard in Resources */,
-				A16B764C24ACC4C000D96F09 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				A151039F210D50D50087EA86 /* dpquake.ttf in Resources */,
 				A1902E9B21075F1C008823BB /* baseq3 in Resources */,
 				A179BFEE210142FB00D3C611 /* Assets.xcassets in Resources */,
 				A179BFEC210142FA00D3C611 /* Main.storyboard in Resources */,
-				A16B765024ACC4C000D96F09 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
-				A16B764E24ACC4C000D96F09 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2028,7 +2003,6 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Quake3/libs/tvos",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/libs/tvos",
 				);
@@ -2070,7 +2044,6 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Quake3/libs/tvos",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/libs/tvos",
 				);
@@ -2137,8 +2110,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Quake3/curl-7.54.0/include/",
-					"$(PROJECT_DIR)/Quake3/jpeg-8c/",
+					"$(PROJECT_DIR)/q3/curl-7.54.0/include/",
+					"$(PROJECT_DIR)/q3/jpeg-8c/",
 					"$(PROJECT_DIR)/SDL/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2197,8 +2170,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Quake3/curl-7.54.0/include/",
-					"$(PROJECT_DIR)/Quake3/jpeg-8c/",
+					"$(PROJECT_DIR)/q3/curl-7.54.0/include/",
+					"$(PROJECT_DIR)/q3/jpeg-8c/",
 					"$(PROJECT_DIR)/SDL/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2240,7 +2213,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Quake3/libs/ios",
 					"$(PROJECT_DIR)/libs/ios",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.btnhub.q3ios;
@@ -2283,7 +2255,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Quake3/libs/ios",
 					"$(PROJECT_DIR)/libs/ios",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.btnhub.q3ios;
@@ -2335,14 +2306,6 @@
 				minimumVersion = 7.6.4;
 			};
 		};
-		A1DBB60C24A160080021BA6F /* XCRemoteSwiftPackageReference "FontAwesome" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/thii/FontAwesome.swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.9.0;
-			};
-		};
 		A1DBB60F24A160450021BA6F /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
@@ -2359,11 +2322,6 @@
 			package = A1DBB60924A15FA90021BA6F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
 			productName = CocoaAsyncSocket;
 		};
-		A1DBB60D24A160080021BA6F /* FontAwesome */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A1DBB60C24A160080021BA6F /* XCRemoteSwiftPackageReference "FontAwesome" */;
-			productName = FontAwesome;
-		};
 		A1DBB61024A160450021BA6F /* ZIPFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A1DBB60F24A160450021BA6F /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
@@ -2373,11 +2331,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A1DBB60924A15FA90021BA6F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
 			productName = CocoaAsyncSocket;
-		};
-		A1DBB61424A161600021BA6F /* FontAwesome */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A1DBB60C24A160080021BA6F /* XCRemoteSwiftPackageReference "FontAwesome" */;
-			productName = FontAwesome;
 		};
 		A1DBB61624A161A40021BA6F /* ZIPFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
