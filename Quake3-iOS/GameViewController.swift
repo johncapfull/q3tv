@@ -56,6 +56,14 @@ class GameViewController: UIViewController {
         argv += ["+set", "com_basegame", "baseq3"]
         argv += ["+name", self.defaults.string(forKey: "playerName")]
 
+        
+        argv += ["+set", "joy_threshold", "0.1"]
+        argv += ["+set", "joy_pitchthreshold", "0.4"]  // up/down
+        
+        
+        argv += ["+set", "j_yaw", "0.012"]
+        argv += ["+set", "j_pitch", "0.006"]   // 0.12
+
         argv += ["+set", "com_developer", "1"]
 
         if !self.selectedMap.isEmpty {

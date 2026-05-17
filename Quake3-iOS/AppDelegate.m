@@ -6,7 +6,8 @@
 //
 
 #import "AppDelegate.h"
-//#import <GameController/GameController.h>
+#import <GameController/GameController.h>
+
 #if TARGET_OS_TV
 #import "Quake3_tvOS-Swift.h"
 #else
@@ -46,17 +47,19 @@
 - (void)postFinishLaunch
 {
     [self performSelector:@selector(hideLaunchScreen) withObject:nil afterDelay:0.0];
-
+    
     self.uiwindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.uiwindow.backgroundColor = [UIColor blackColor];
     
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
-
+    
     rootNavigationController = (UINavigationController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"RootNC"];
-
+    
     self.uiwindow.rootViewController = self.rootNavigationController;
     
     [self.uiwindow makeKeyAndVisible];
+
+    [self initGameControllers];
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
@@ -71,6 +74,38 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     [super applicationDidFinishLaunching:application];
 }
+
+- (void)initGameControllers {
+    [[NSNotificationCenter defaultCenter]
+        addObserver:self
+           selector:@selector(controllerConnected:)
+               name:GCControllerDidConnectNotification
+             object:nil];
+
+    [[NSNotificationCenter defaultCenter]
+        addObserver:self
+           selector:@selector(controllerDisconnected:)
+               name:GCControllerDidDisconnectNotification
+             object:nil];
+
+    // уже подключенные
+    for (GCController *controller in GCController.controllers) {
+        NSLog(@"CONTROLLER Existing: %@", controller.vendorName);
+    }
+}
+
+- (void)controllerConnected:(NSNotification *)notification
+{
+    GCController *controller = notification.object;
+    NSLog(@"CONTROLLER Connected: %@", controller.vendorName);
+}
+
+- (void)controllerDisconnected:(NSNotification *)notification
+{
+    GCController *controller = notification.object;
+    NSLog(@"CONTROLLER Disconnected: %@", controller.vendorName);
+}
+
 
 // dummy function to prevent linkage fail
 int SDL_main(int argc, char **argv) {

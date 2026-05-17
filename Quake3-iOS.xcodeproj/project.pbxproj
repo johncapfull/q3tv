@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691E7D6D2FB9E1A600943D1C /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691E7D6C2FB9E1A600943D1C /* libSDL2.a */; };
+		69B7A6742FB9CD6C004F093E /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7A6732FB9CD6C004F093E /* GameController.framework */; };
 		A144021A23ABEC6E00491C86 /* BotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144021923ABEC6E00491C86 /* BotCollectionViewCell.swift */; };
 		A144021B23ABEC6E00491C86 /* BotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144021923ABEC6E00491C86 /* BotCollectionViewCell.swift */; };
 		A1510399210B7A390087EA86 /* JoyStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1510398210B7A390087EA86 /* JoyStickView.swift */; };
@@ -433,7 +435,6 @@
 		A196B73C2117F0800031CEB8 /* GSCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A196B6942115F7C50031CEB8 /* GSCoordinator.swift */; };
 		A196B7432117FFA30031CEB8 /* ServerFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A196B7422117FFA30031CEB8 /* ServerFilterViewController.swift */; };
 		A1CA50FF25A40BB100D72650 /* libsdl2_0_14_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA50FE25A40B9F00D72650 /* libsdl2_0_14_ios.a */; };
-		A1CA510425A40EF000D72650 /* libSDL2_0_14_tvos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA510325A40EDF00D72650 /* libSDL2_0_14_tvos.a */; };
 		A1CA510825A40F1D00D72650 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA510725A40F0B00D72650 /* CoreHaptics.framework */; };
 		A1CA510A25A40F3900D72650 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DBB61E24A165580021BA6F /* AudioToolbox.framework */; };
 		A1CA510B25A40F3C00D72650 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DBB61F24A165580021BA6F /* AVFoundation.framework */; };
@@ -481,6 +482,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		691E7D6C2FB9E1A600943D1C /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
+		69B7A6732FB9CD6C004F093E /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS26.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		A144021923ABEC6E00491C86 /* BotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotCollectionViewCell.swift; sourceTree = "<group>"; };
 		A1510398210B7A390087EA86 /* JoyStickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickView.swift; sourceTree = "<group>"; };
 		A151039B210B7A890087EA86 /* CoreGraphics+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Additions.swift"; sourceTree = "<group>"; };
@@ -801,7 +804,6 @@
 		A196B7422117FFA30031CEB8 /* ServerFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerFilterViewController.swift; sourceTree = "<group>"; };
 		A1CA50FE25A40B9F00D72650 /* libsdl2_0_14_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_0_14_ios.a; path = Quake3/libs/ios/libsdl2_0_14_ios.a; sourceTree = "<group>"; };
 		A1CA510225A40EA800D72650 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
-		A1CA510325A40EDF00D72650 /* libSDL2_0_14_tvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_0_14_tvos.a; path = Quake3/libs/tvos/libSDL2_0_14_tvos.a; sourceTree = "<group>"; };
 		A1CA510725A40F0B00D72650 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.3.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = DEVELOPER_DIR; };
 		A1DBB61E24A165580021BA6F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.4.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		A1DBB61F24A165580021BA6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS13.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -824,12 +826,13 @@
 			files = (
 				A1DBB61724A161A40021BA6F /* ZIPFoundation in Frameworks */,
 				A1CA510825A40F1D00D72650 /* CoreHaptics.framework in Frameworks */,
+				69B7A6742FB9CD6C004F093E /* GameController.framework in Frameworks */,
 				A1CA510B25A40F3C00D72650 /* AVFoundation.framework in Frameworks */,
 				A1565FF2210A0F4900FA9BC9 /* libcrypto.a in Frameworks */,
 				A1565FF3210A0F4900FA9BC9 /* libnghttp2_tvOS.a in Frameworks */,
 				A1565FF4210A0F4900FA9BC9 /* libssl.a in Frameworks */,
-				A1CA510425A40EF000D72650 /* libSDL2_0_14_tvos.a in Frameworks */,
 				A1565FE2210A0D3E00FA9BC9 /* libcurl_tvOS.a in Frameworks */,
+				691E7D6D2FB9E1A600943D1C /* libSDL2.a in Frameworks */,
 				A1CA510A25A40F3900D72650 /* AudioToolbox.framework in Frameworks */,
 				A1DBB61324A161600021BA6F /* CocoaAsyncSocket in Frameworks */,
 				A1DBB61524A161600021BA6F /* FontAwesome in Frameworks */,
@@ -1261,6 +1264,7 @@
 		A179C4AD2101853600D3C611 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69B7A6732FB9CD6C004F093E /* GameController.framework */,
 				A196B6F92117EE6E0031CEB8 /* iOS */,
 				A196B6FA2117EE750031CEB8 /* tvOS */,
 			);
@@ -1388,7 +1392,7 @@
 				A1565FEF210A0F4900FA9BC9 /* libcrypto.a */,
 				A1565FE1210A0D3E00FA9BC9 /* libcurl_tvOS.a */,
 				A1565FF0210A0F4900FA9BC9 /* libnghttp2_tvOS.a */,
-				A1CA510325A40EDF00D72650 /* libSDL2_0_14_tvos.a */,
+				691E7D6C2FB9E1A600943D1C /* libSDL2.a */,
 				A1565FF1210A0F4900FA9BC9 /* libssl.a */,
 			);
 			name = tvOS;
@@ -2011,7 +2015,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Quake3/libs/tvos";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Quake3/libs/tvos",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.btnhub.q3tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -2049,7 +2057,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Quake3/libs/tvos";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Quake3/libs/tvos",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.btnhub.q3tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;

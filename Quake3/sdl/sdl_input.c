@@ -463,6 +463,8 @@ static void IN_InitJoystick( void )
 	gamepad = NULL;
 	memset(&stick_state, '\0', sizeof (stick_state));
 
+    SDL_SetHint(SDL_HINT_JOYSTICK_ALLOW_BACKGROUND_EVENTS, "1");
+    
 	// SDL 2.0.4 requires SDL_INIT_JOYSTICK to be initialized separately from
 	// SDL_INIT_GAMECONTROLLER for SDL_JoystickOpen() to work correctly,
 	// despite https://wiki.libsdl.org/SDL_Init (retrieved 2016-08-16)
@@ -492,6 +494,11 @@ static void IN_InitJoystick( void )
 	total = SDL_NumJoysticks();
 	Com_DPrintf("%d possible joysticks\n", total);
 
+    int isGamepad0 = SDL_IsGameController(0);
+    int isGamepad1 = SDL_IsGameController(1);
+
+    Com_DPrintf("## controllers: %d %d\n", isGamepad0, isGamepad1);
+    
 	// Print list and build cvar to allow ui to select joystick.
 	for (i = 0; i < total; i++)
 	{
